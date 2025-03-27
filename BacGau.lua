@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://72380238122851",
+    Image = "rbxassetid://104046595838320",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: BacGau Hub Premium",
+    Text = "Premium",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -317,7 +317,7 @@ local v15 = v14:CreateWindow({
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
-    Acrylic = false,
+    Acrylic = true,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
 });
@@ -8623,7 +8623,7 @@ v16.Misc:AddButton({
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Marines");
     end
 });
-local v56 = v16.Misc:AddSection("Kinh Nghiệm");
+local v56 = v16.Misc:AddSection("Code");
 local v150 = {
     "KITT_RESET",
     "Sub2UncleKizaru",
@@ -8670,7 +8670,7 @@ local v150 = {
     "SECRET_ADMIN"
 };
 v16.Misc:AddButton({
-    Title = "Nhập Hết",
+    Title = "Enter All Codes",
     Description = "",
     Callback = function()
         for v559, v560 in ipairs(v150) do
@@ -8750,7 +8750,7 @@ v16.Misc:AddButton({
     end
 });
 local v153 = v16.Misc:AddToggle("ToggleAntiBand", {
-    Title = "Chống Band",
+    Title = "Anti-Banned Anti-Reset",
     Description = "",
     Default = true
 });
@@ -9325,6 +9325,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "BacGau Hub",
-    Content = "Cặc Ba Mày Đang Tải...",
+    Content = "Welcome...",
     Duration = 10
 });
