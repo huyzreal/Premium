@@ -1,7 +1,7 @@
--- discord.gg/huyzreal
+-- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "Script By huyz";
+shared.LoaderTitle = "Premium Script";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://73175818243030",
+    Image = "rbxassetid://90008731814141",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
-    Title = "BacGau Hub Premium Hub",
+    Title = "BacGau Hub Premium",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
@@ -323,49 +323,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Information"
     }),
     Main = v15:AddTab({
-        Title = "Cày"
+        Title = "Level Up"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện"
+        Title = "Event"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm"
+        Title = "Item"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt"
+        Title = "Setting"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ"
+        Title = "Server"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số"
+        Title = "Index"
     }),
     Player = v15:AddTab({
-        Title = "Người Chơi"
+        Title = "Players"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển"
+        Title = "Portal"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Fake"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái"
+        Title = "Fruits"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích"
+        Title = "Raid"
     }),
     Race = v15:AddTab({
-        Title = "Tộc"
+        Title = "Race"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng"
+        Title = "Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Other"
     })
 };
 local v17 = v14.Options;
@@ -2633,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=73175818243030";
+v23.Image = "http://www.roblox.com/asset/?id=90008731814141";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2678,9 +2678,9 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
 end
 v16.Home:AddButton({
     Title = "Discord",
-    Description = "Giao Lưu",
+    Description = "Update",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox");
+        setclipboard("https://discord.gg/YsEXJ3r3");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -2696,7 +2696,7 @@ spawn(function()
     end
 end);
 local v48 = v16.Main:AddDropdown("DropdownSelectWeapon", {
-    Title = "Vũ Khí",
+    Title = "Weapons",
     Description = "",
     Values = {
         "Melee",
