@@ -6545,7 +6545,7 @@ spawn(function()
     end
 end);
 local v102 = v16.Status:AddParagraph({
-    Title = "Thời Gian Máy Chủ",
+    Title = "Đã Treo ( Không Nên Treo Quá 1-2 Tiếng )",
     Content = ""
 });
 local function v103()
@@ -9325,6 +9325,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "BacGau Hub",
-    Content = "Tải Xong",
+    Content = "Loading...",
     Duration = 10
 });
