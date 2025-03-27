@@ -2683,6 +2683,19 @@ v16.Home:AddButton({
         setclipboard("https://discord.gg/YsEXJ3r3");
     end
 });
+v16.Home:AddButton({
+    Title = "--------",
+    Description = "Directory",
+    Callback = function()
+        setclipboardDirectory();
+    end
+v16.Home:AddButton({
+    Title = "--------",
+    Description = "Directory",
+    Callback = function()
+        setclipboardDirectory();
+                end
+});
 _G.FastAttackStrix_Mode = "Super Fast Attack";
 spawn(function()
     while wait() do
