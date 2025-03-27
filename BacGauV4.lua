@@ -9324,7 +9324,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "BacGau Hub",
-    Content = "Loading Script ✅",
+    Title = "Loading...",
+    Content = "Do You Want to Delete the Config Folder?",
     Duration = 10
 });
