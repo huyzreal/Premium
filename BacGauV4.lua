@@ -1,7 +1,7 @@
 -- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "🇻🇳Premium Script";
+shared.LoaderTitle = "🇻🇳 Premium Script";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -2743,7 +2743,7 @@ task.spawn(function()
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Farm Level < Error >",
-    Description = "",
+    Description = "❎ Vui Lòng Bật Chức Năng Này Và Bật Kill Aura",
     Default = false
 });
 v49:OnChanged(function(v237)
@@ -2803,7 +2803,7 @@ spawn(function()
 end);
 local v50 = v16.Main:AddToggle("ToggleMobAura", {
     Title = "Fram Aura < Như Fram Level >",
-    Description = "",
+    Description = "✅ Khuyến Khích Bật Khi Fram Level Bị Lỗi",
     Default = false
 });
 v50:OnChanged(function(v238)
@@ -2849,7 +2849,7 @@ spawn(function()
 end);
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
     Title = "Pirates Raid",
-    Description = "",
+    Description = "🍀",
     Default = false
 });
 v51:OnChanged(function(v239)
@@ -2886,7 +2886,7 @@ spawn(function()
 end);
 local v52 = v16.Main:AddToggle("ToggleHakiFortress", {
     Title = "Turn on Three Color Haki",
-    Description = "",
+    Description = "🍀",
     Default = false
 });
 v52:OnChanged(function(v240)
@@ -2937,7 +2937,7 @@ spawn(function()
 end);
 local v55 = v16.Main:AddToggle("ToggleCollectChest", {
     Title = "Lụm Rương",
-    Description = "",
+    Description = "❎ Rất Dễ Bị Reset",
     Default = false
 });
 v55:OnChanged(function(v248)
@@ -6062,7 +6062,7 @@ end);
 if Sea2 then
     local v537 = v16.ITM:AddToggle("ToggleFactory", {
         Title = "Đấm Nhà Máy",
-        Description = "Ra Kitsune",
+        Description = "🤑Ra Kitsune",
         Default = false
     });
     v537:OnChanged(function(v644)
@@ -7451,7 +7451,7 @@ spawn(function()
 end);
 local v128 = v16.Fruit:AddToggle("ToggleCollectTP", {
     Title = "Bay Đến Trái",
-    Description = "",
+    Description = "Tốc Độ Bàn Thờ🍀",
     Default = false
 });
 v128:OnChanged(function(v343)
@@ -9250,7 +9250,7 @@ spawn(function()
 end);
 local v175 = v16.Sea:AddToggle("ToggleKillAura", {
     Title = "Đấm Golems Aura",
-    Description = "",
+    Description = "❎ Có Thể Bị Lỗi Á",
     Default = false
 });
 v175:OnChanged(function(v413)
@@ -9325,6 +9325,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "BacGau Hub",
-    Content = "Welcome...",
+    Content = "Loading Script ✅",
     Duration = 10
 });
