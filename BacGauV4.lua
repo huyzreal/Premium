@@ -1,7 +1,7 @@
 -- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "Premium Script";
+shared.LoaderTitle = "🇻🇳Premium Script";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
