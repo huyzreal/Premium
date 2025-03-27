@@ -323,49 +323,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Information"
+        Title = "Tab Information"
     }),
     Main = v15:AddTab({
-        Title = "Level Up"
+        Title = "Tab Level Up"
     }),
     Sea = v15:AddTab({
-        Title = "Event"
+        Title = "Tab Event"
     }),
     ITM = v15:AddTab({
-        Title = "Item"
+        Title = "Tab Item"
     }),
     Setting = v15:AddTab({
-        Title = "Setting"
+        Title = "Tab Setting"
     }),
     Status = v15:AddTab({
-        Title = "Server"
+        Title = "Tab Server"
     }),
     Stats = v15:AddTab({
-        Title = "Index"
+        Title = "Tab Index"
     }),
     Player = v15:AddTab({
-        Title = "Players"
+        Title = "Tab Players"
     }),
     Teleport = v15:AddTab({
-        Title = "Portal"
+        Title = "Tab Portal"
     }),
     Visual = v15:AddTab({
-        Title = "Fake"
+        Title = "Tab Fake"
     }),
     Fruit = v15:AddTab({
-        Title = "Fruits"
+        Title = "Tab Fruits"
     }),
     Raid = v15:AddTab({
-        Title = "Raid"
+        Title = "Tab Raid"
     }),
     Race = v15:AddTab({
-        Title = "Race"
+        Title = "Tab Race"
     }),
     Shop = v15:AddTab({
-        Title = "Shop"
+        Title = "Tab Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Other"
+        Title = "Tab Other"
     })
 };
 local v17 = v14.Options;
