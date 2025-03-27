@@ -313,10 +313,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
-    Title = "BacGau Hub Premium",
-    SubTitle = "Blox Fruit",
+    Title = "BacGau Hub Premium ( Blox Fruit )",
+    SubTitle = "By huyz",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "White",
     Acrylic = true,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
