@@ -1,7 +1,7 @@
 -- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "🇻🇳 Premium Script";
+shared.LoaderTitle = "🇻🇳 Premium Script Main";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -314,10 +314,10 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
     Title = "Normal Hub Blox-Fruit [ Premium ]",
-    SubTitle = "By huyz",
+    SubTitle = "By weijx wuyx",
     TabWidth = 160,
     Theme = "White",
-    Acrylic = false,
+    Acrylic = true,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
 });
@@ -335,13 +335,13 @@ local v16 = {
         Title = "Tab Item"
     }),
     Setting = v15:AddTab({
-        Title = "Tab Setting"
+        Title = "Tab Settings"
     }),
     Status = v15:AddTab({
         Title = "Tab Server"
     }),
     Stats = v15:AddTab({
-        Title = "Tab Auto Index"
+        Title = "Tab Auto Stats"
     }),
     Player = v15:AddTab({
         Title = "Tab Players"
@@ -350,7 +350,7 @@ local v16 = {
         Title = "Tab Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Tab Fake"
+        Title = "Tab Fake Level"
     }),
     Fruit = v15:AddTab({
         Title = "Tab Fruits"
@@ -3271,7 +3271,7 @@ if Sea3 then
     end);
     local v492 = v16.Main:AddToggle("ToggleCake", {
         Title = "Fram Katakuri",
-        Description = "",
+        Description = "Fram Katakuri 500 mods",
         Default = false
     });
     local v493 = true;
@@ -3345,7 +3345,7 @@ if Sea3 then
     end);
     local v494 = v16.Main:AddToggle("ToggleDoughKing", {
         Title = "Đánh Dough King",
-        Description = "",
+        Description = "Auto Kill",
         Default = false
     });
     v494:OnChanged(function(v576)
