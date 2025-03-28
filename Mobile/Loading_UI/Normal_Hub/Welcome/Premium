@@ -316,9 +316,9 @@ local v15 = v14:CreateWindow({
     Title = "Normal Hub Blox-Fruit [ Premium ]",
     SubTitle = "By weijx wuyx",
     TabWidth = 320,
-    Theme = "White",
+    Theme = "Darker",
     Acrylic = true,
-    Size = UDim2.fromOffset(500, 320),
+    Size = UDim2.fromOffset(550, 320),
     MinimizeKey = Enum.KeyCode.End
 });
 local v16 = {
