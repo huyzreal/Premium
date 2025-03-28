@@ -1,7 +1,7 @@
 -- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "🇻🇳 Premium Script";
+shared.LoaderTitle = "🇻🇳 Free Limited Time Script";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -313,10 +313,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
-    Title = "Normal Hub Blox-Fruit [ Premium ]",
+    Title = "Normal Hub Blox-Fruit [ Free ]",
     SubTitle = "By huyz",
     TabWidth = 160,
-    Theme = "Dark Purple",
+    Theme = "White",
     Acrylic = true,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -9325,6 +9325,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "Loading...",
-    Content = "Welcome Players I'm Back",
+    Content = "Đang Tải...",
     Duration = 10
 });
