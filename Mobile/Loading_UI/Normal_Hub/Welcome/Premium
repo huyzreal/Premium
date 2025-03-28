@@ -1,7 +1,7 @@
 -- discord.gg/YsEXJ3r3
 
 
-shared.LoaderTitle = "🇻🇳 Free Limited Time Script";
+shared.LoaderTitle = "🇻🇳 Premium Script";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -313,10 +313,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
-    Title = "Normal Hub Blox-Fruit [ Free ]",
+    Title = "Normal Hub Blox-Fruit [ Premium ]",
     SubTitle = "By huyz",
     TabWidth = 160,
-    Theme = "White",
+    Theme = "Red",
     Acrylic = true,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -2677,8 +2677,8 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
-    Description = "Update",
+    Title = "Discord Normal Hub",
+    Description = "Join To Know More About Update And Free Key",
     Callback = function()
         setclipboard("https://discord.gg/YsEXJ3r3");
     end
@@ -2743,7 +2743,7 @@ task.spawn(function()
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Farm Level < Error >",
-    Description = "❎ Vui Lòng Bật Chức Năng Này Và Bật Kill Aura",
+    Description = "❎ Vui Lòng Bật Chức Năng Này Và Bật Kill Aura Niếu Nó Không Fram Hoặc Lỗi",
     Default = false
 });
 v49:OnChanged(function(v237)
@@ -2849,7 +2849,7 @@ spawn(function()
 end);
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
     Title = "Pirates Raid",
-    Description = "🍀",
+    Description = "Raid Pirates",
     Default = false
 });
 v51:OnChanged(function(v239)
@@ -2886,7 +2886,7 @@ spawn(function()
 end);
 local v52 = v16.Main:AddToggle("ToggleHakiFortress", {
     Title = "Turn on Three Color Haki",
-    Description = "🍀",
+    Description = "Buy Haki Colors👀",
     Default = false
 });
 v52:OnChanged(function(v240)
@@ -2937,7 +2937,7 @@ spawn(function()
 end);
 local v55 = v16.Main:AddToggle("ToggleCollectChest", {
     Title = "Lụm Rương",
-    Description = "❎ Rất Dễ Bị Reset",
+    Description = "⚠️ Rất Dễ Bị Reset Hoặc Banned",
     Default = false
 });
 v55:OnChanged(function(v248)
@@ -3216,7 +3216,7 @@ if Sea3 then
     });
     v16.Main:AddButton({
         Title = "Auto Thử Vận May",
-        Description = "",
+        Description = "Chúc Bạn May Mắn",
         Callback = function()
             local v573 = {
                 [1] = "gravestoneEvent",
@@ -3385,7 +3385,7 @@ if Sea3 then
     end);
     local v495 = v16.Main:AddToggle("ToggleSpawnCake", {
         Title = "Triệu Hồi Tư Lệnh Bánh",
-        Description = "",
+        Description = "Auto Spawn 🌊",
         Default = true
     });
     v495:OnChanged(function(v577)
@@ -3412,7 +3412,7 @@ if Sea2 then
     local v496 = v16.Main:AddSection("Ectoplasm Farm");
     local v497 = v16.Main:AddToggle("ToggleVatChatKiDi", {
         Title = "Auto Farm Ectoplasm",
-        Description = "",
+        Description = "Sea 2",
         Default = false
     });
     v497:OnChanged(function(v578)
@@ -3504,7 +3504,7 @@ elseif Sea3 then
 end
 local v61 = v16.Main:AddDropdown("DropdownBoss", {
     Title = "Đánh Boss",
-    Description = "",
+    Description = "⚠️ Có Thể Sẽ Bị Lỗi Chúng Tôi Đang Cố Gắng Fixed Lỗi",
     Values = tableBoss,
     Multi = false,
     Default = 1
@@ -3653,14 +3653,14 @@ end);
 if Sea3 then
     local v498 = v16.Sea:AddSection("Đảo Cáo");
     local v499 = v16.Sea:AddParagraph({
-        Title = "Trạng Thái Đảo Cáo",
+        Title = "Kitsune Inland",
         Content = ""
     });
     function UpdateKitsune()
         if game:GetService("Workspace").Map:FindFirstChild("KitsuneIsland") then
-            v499:SetDesc("Đảo Cáo : ✅️");
+            v499:SetDesc("Kitusne Inland : ✅️");
         else
-            v499:SetDesc("Đảo Cáo : ❌️");
+            v499:SetDesc("Kitusne Inland : ❎");
         end
     end
     spawn(function()
@@ -3716,7 +3716,7 @@ if Sea3 then
     end
     local v501 = v16.Sea:AddToggle("ToggleTPKitsune", {
         Title = "Dịch Chuyển Đến Đảo Cáo",
-        Description = "",
+        Description = "Teleporting 🏍️",
         Default = false
     });
     v501:OnChanged(function(v580)
@@ -3779,7 +3779,7 @@ if Sea3 then
     local v508 = 350;
     local v509 = v16.Sea:AddSlider("SliderSpeedBoat", {
         Title = "Tốc Độ Thuyền",
-        Description = "",
+        Description = "🚤",
         Default = v508,
         Min = 0,
         Max = 350,
@@ -3791,7 +3791,7 @@ if Sea3 then
     v509:SetValue(v508);
     local v510 = v16.Sea:AddToggle("AutoFindPrehistoric", {
         Title = "Auto Tìm Đảo Dung Nham",
-        Description = "",
+        Description = "Tự Động Tìm Đảo Prehistoric 🌋",
         Default = false
     });
     v17.AutoFindPrehistoric:SetValue(false);
@@ -3875,7 +3875,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Normal Hub Premium",
-                    Content = "Con Mẹ Mày, Đảo Kìa Em Ơi",
+                    Content = "Con Mẹ Mày, Đảo Kìa Em Ơi 🌋",
                     Duration = 10
                 });
                 v513 = true;
@@ -3885,7 +3885,7 @@ if Sea3 then
     end);
     local v514 = v16.Sea:AddToggle("AutoFindMirage", {
         Title = "Auto Tìm Đảo Bí Ẩn",
-        Description = "",
+        Description = "🏝️",
         Default = false
     });
     v17.AutoFindMirage:SetValue(false);
@@ -3969,7 +3969,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Normal Hub Premium",
-                    Content = "Má Mày , Đảo Kìa Cu",
+                    Content = "Má Mày , Đảo Kìa Cu 🏝️",
                     Duration = 10
                 });
                 v513 = true;
@@ -3979,7 +3979,7 @@ if Sea3 then
     end);
     local v515 = v16.Sea:AddToggle("AutoFindFrozen", {
         Title = "Auto Tìm Đảo Leviathan",
-        Description = "Cần 5 Người Không Idk",
+        Description = "Cần 5 Người Không Idk 🔥",
         Default = false
     });
     v17.AutoFindFrozen:SetValue(false);
@@ -4063,7 +4063,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Normal Hub Premium",
-                    Content = "Aduuu Ra Rồiiiii",
+                    Content = "Aduuu Ra Rồiiiii 💦",
                     Duration = 10
                 });
                 v513 = true;
@@ -4115,7 +4115,7 @@ if Sea3 then
     end);
     local v517 = v16.Sea:AddToggle("AutoComeHydra", {
         Title = "Lái Thuyền Về Đảo Hydra",
-        Description = "Mất Mẹ Thuyền Giờ=)",
+        Description = "Mất Mẹ Thuyền Giờ=) ⚠️",
         Default = false
     });
     v517:OnChanged(function(v622)
@@ -4157,7 +4157,7 @@ if Sea3 then
     end);
     v16.Sea:AddButton({
         Title = "Bay Đến Khu Vực Săn",
-        Description = "À Húuu",
+        Description = "À Húuu ⚠️",
         Callback = function()
             Tween2(CFrame.new(- 16917.154296875, 7.757596015930176, 511.8203125));
         end
@@ -4222,7 +4222,7 @@ if Sea3 then
     end);
     v16.Sea:AddButton({
         Title = "Mua Thuyền",
-        Description = "ahihi em Sẽ Phá Thuyền",
+        Description = "Mua Thuyền Bạn Đã Chọn👍",
         Callback = function()
             v520(selectedBoat);
         end
@@ -4236,7 +4236,7 @@ if Sea3 then
     });
     local v522 = v16.Sea:AddToggle("ToggleTerrorshark", {
         Title = "Đấm Cá Mập",
-        Description = "Mày Quá Yếu",
+        Description = "Mày Quá Yếu Không Nỗi Đâu Con😂",
         Default = false
     });
     v522:OnChanged(function(v630)
@@ -4274,7 +4274,7 @@ if Sea3 then
     end);
     local v523 = v16.Sea:AddToggle("TogglePiranha", {
         Title = "Đấm Piranha",
-        Description = "Nó mạnh Vl",
+        Description = "Chế Cuộn Enchant À 🙀",
         Default = false
     });
     v523:OnChanged(function(v631)
@@ -4312,7 +4312,7 @@ if Sea3 then
     end);
     local v524 = v16.Sea:AddToggle("ToggleShark", {
         Title = "Đấm Cá Con",
-        Description = "",
+        Description = "Làm Nhiệm Vụ Học Sửa Thuyền 🌪️",
         Default = false
     });
     v524:OnChanged(function(v632)
@@ -4354,7 +4354,7 @@ if Sea3 then
     end);
     local v525 = v16.Sea:AddToggle("ToggleFishCrew", {
         Title = "Đấm Tàu Cá",
-        Description = "",
+        Description = "⚓",
         Default = false
     });
     v525:OnChanged(function(v633)
@@ -4396,7 +4396,7 @@ if Sea3 then
     end);
     local v526 = v16.Sea:AddToggle("ToggleShip", {
         Title = "Đấm Tàu",
-        Description = "",
+        Description = "Dễ Die Lắm Em Ạ🤗",
         Default = false
     });
     v526:OnChanged(function(v634)
@@ -4439,7 +4439,7 @@ if Sea3 then
     end);
     local v527 = v16.Sea:AddToggle("ToggleGhostShip", {
         Title = "Đấm Tàu Ma",
-        Description = "",
+        Description = "Mày Chết Tao Chịu💀",
         Default = false
     });
     v527:OnChanged(function(v636)
@@ -4562,7 +4562,7 @@ if Sea3 then
     local v528 = v16.Main:AddSection("Elite");
     local v529 = v16.Main:AddParagraph({
         Title = "Trạng Thái Elite",
-        Content = ""
+        Content = "Status💣"
     });
     spawn(function()
         while wait() do
@@ -4628,7 +4628,7 @@ if Sea3 then
     local v531 = v16.Sea:AddSection("Đảo Bí Ẩn");
     local v532 = v16.Sea:AddParagraph({
         Title = "Trạng Thái",
-        Content = ""
+        Content = "📢"
     });
     task.spawn(function()
         while task.wait() do
@@ -4717,7 +4717,7 @@ spawn(function()
 end);
 local v67 = v16.Sea:AddToggle("ToggleTweenGear", {
     Title = "Bay Đến Bánh Răng",
-    Description = "",
+    Description = "Teleporting Gear⚙️",
     Default = false
 });
 v67:OnChanged(function(v258)
@@ -4743,7 +4743,7 @@ spawn(function()
 end);
 local v68 = v16.Sea:AddToggle("Togglelockmoon", {
     Title = "Nhìn Trăng Và Dùng Tộc",
-    Description = "Tao Phá",
+    Description = "Yêu Cầu Có Mảnh Gương Và Mũ Admin⚠️",
     Default = false
 });
 v68:OnChanged(function(v259)
@@ -4772,7 +4772,7 @@ spawn(function()
 end);
 local v69 = v16.ITM:AddToggle("ToggleAutoSaber", {
     Title = "Saber",
-    Description = "",
+    Description = "Sea 1",
     Default = false
 });
 v69:OnChanged(function(v260)
@@ -4882,7 +4882,7 @@ spawn(function()
 end);
 local v70 = v16.ITM:AddToggle("ToggleAutoPoleV1", {
     Title = "Pole V1",
-    Description = "",
+    Description = "Sea 1",
     Default = false
 });
 v70:OnChanged(function(v261)
@@ -4924,7 +4924,7 @@ spawn(function()
 end);
 local v72 = v16.ITM:AddToggle("ToggleAutoSaw", {
     Title = "Cưa Cá Mập",
-    Description = "",
+    Description = "Sea 1",
     Default = false
 });
 v72:OnChanged(function(v262)
@@ -4966,7 +4966,7 @@ spawn(function()
 end);
 local v73 = v16.ITM:AddToggle("ToggleAutoWarden", {
     Title = "Kiếm Quản Ngục",
-    Description = "",
+    Description = "Sea 1",
     Default = false
 });
 v73:OnChanged(function(v263)
@@ -5009,7 +5009,7 @@ end);
 if Sea3 then
     local v533 = v16.ITM:AddToggle("ToggleHallow", {
         Title = "Lưỡi Hái",
-        Description = "",
+        Description = "Sea 3",
         Default = false
     });
     v533:OnChanged(function(v640)
@@ -5065,7 +5065,7 @@ if Sea3 then
     end);
     local v534 = v16.ITM:AddToggle("ToggleYama", {
         Title = "Yama",
-        Description = "",
+        Description = "Sea 3",
         Default = false
     });
     v534:OnChanged(function(v641)
@@ -5086,7 +5086,7 @@ if Sea3 then
     end);
     local v535 = v16.ITM:AddToggle("ToggleTushita", {
         Title = "Tushita",
-        Description = "",
+        Description = "Sea 3",
         Default = false
     });
     v535:OnChanged(function(v642)
@@ -5125,7 +5125,7 @@ if Sea3 then
     end);
     local v536 = v16.ITM:AddToggle("ToggleHoly", {
         Title = "Đốt Đuốc",
-        Description = "",
+        Description = "Sea 3",
         Default = false
     });
     v536:OnChanged(function(v643)
@@ -5168,7 +5168,7 @@ if Sea3 then
 end
 local v75 = v16.ITM:AddToggle("ToggleAutoCanvander", {
     Title = "Canvander",
-    Description = "",
+    Description = "Sea 3",
     Default = false
 });
 v75:OnChanged(function(v264)
@@ -5210,7 +5210,7 @@ spawn(function()
 end);
 local v76 = v16.ITM:AddToggle("ToggleAutoMusketeerHat", {
     Title = "Mũ Lính Ngự Lâm",
-    Description = "",
+    Description = "Sea 3",
     Default = false
 });
 v76:OnChanged(function(v265)
@@ -5294,7 +5294,7 @@ spawn(function()
 end);
 local v77 = v16.ITM:AddToggle("ToggleAutoObservationV2", {
     Title = "Haki Quan Sát V2",
-    Description = "",
+    Description = "Sea Nào Cũng Được ⚠️",
     Default = false
 });
 v77:OnChanged(function(v266)
@@ -5342,7 +5342,7 @@ spawn(function()
 end);
 local v78 = v16.ITM:AddToggle("ToggleAutoRainbowHaki", {
     Title = "Haki 7 Màu",
-    Description = "",
+    Description = "Sea 3",
     Default = false
 });
 v78:OnChanged(function(v267)
